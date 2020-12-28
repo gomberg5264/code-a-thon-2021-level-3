@@ -13,7 +13,7 @@ function App() {
       <h1 id="title">Tip Calculator (React)</h1>
       <div className='costArea'>
         <label for="mealCost">Meal Cost</label>
-        <input type="number" id="mealCost" min="0" value="" autofocus />
+        <input type="number" id="mealCost" min="0" value="" autoFocus />
       </div>
       <table cellSpacing="0">
         <tr>
