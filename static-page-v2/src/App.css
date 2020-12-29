@@ -48,18 +48,6 @@ footer {
   height: 2.5rem;            /* Footer height */
 }
 
-/* .more-link {
-  font: bold 11px Arial;
-  text-decoration: none;
-  background-color: #EEEEEE;
-  color: #333333;
-  padding: 8px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #333333;
-  border-bottom: 1px solid #333333;
-  border-left: 1px solid #CCCCCC;
-} */
-
 .more-link {
   display: inline-block;
   text-align: center;
