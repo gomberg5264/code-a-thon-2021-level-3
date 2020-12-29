@@ -1,12 +1,6 @@
 import './App.css';
 
 function App() {
-
-  // function openPage(page) {
-  //   console.log(`Opening page: ${page}`);
-  //   // window.open(`/${page}`);
-  // }
-
   return (
     <div>
       <header><h1>Static App (V1)</h1></header>
