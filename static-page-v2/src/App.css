@@ -48,7 +48,7 @@ footer {
   height: 2.5rem;            /* Footer height */
 }
 
-.more-link {
+/* .more-link {
   font: bold 11px Arial;
   text-decoration: none;
   background-color: #EEEEEE;
@@ -58,4 +58,19 @@ footer {
   border-right: 1px solid #333333;
   border-bottom: 1px solid #333333;
   border-left: 1px solid #CCCCCC;
+} */
+
+.more-link {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font: 400 11px Arial, sans-serif;
+  padding: 6px;
+  border-width: 1px;
+  border-style: outset;
+  border-radius: 3px;
+  border-color: #ccc #333 #333 #ccc;
+  color: black;
+  background-color: #eee;
 }
