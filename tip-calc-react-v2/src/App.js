@@ -27,11 +27,11 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          <TipRow rowLabel="Poor" rowPercent="10" mealCost="{mealCost}" />
-          <TipRow rowLabel="OK" rowPercent="15" mealCost="{mealCost}" />
-          <TipRow rowLabel="Good" rowPercent="18" mealCost="{mealCost}" />
-          <TipRow rowLabel="Great" rowPercent="20" mealCost="{mealCost}" />
-          <TipRow rowLabel="Excellent" rowPercent="22" mealCost="{mealCost}" />
+          <TipRow rowLabel="Poor" rowPercent="10" mealCost={mealCost} />
+          <TipRow rowLabel="OK" rowPercent="15" mealCost={mealCost} />
+          <TipRow rowLabel="Good" rowPercent="18" mealCost={mealCost} />
+          <TipRow rowLabel="Great" rowPercent="20" mealCost={mealCost} />
+          <TipRow rowLabel="Excellent" rowPercent="22" mealCost={mealCost} />
         </tbody>
       </table>
     </div>
@@ -42,7 +42,7 @@ class TipRow extends React.Component {
   render() {
     console.log(`Tip Row: ${this.props.rowLabel}, ${this.props.rowPercent}, ${this.props.mealCost}`);
     let tipPercent = parseInt(this.props.rowPercent);
-    let tipAmount = this.props.mealCost * tipPercent;
+    let tipAmount = (Math.round((this.props.mealCost * tipPercent)) / 100).toFixed(2);
 
     return (
       <tr>
