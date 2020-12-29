@@ -1,17 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 
-const handleChange = event => {
-  // Update the meal cost property
-  
-}
-
-
 function App() {
+
+  const [mealCost, setMealCost] = useState(0);
+
+  const handleChange = event => {
+    console.log(`Meal cost value changed: ${event.target.value}`);    
+    // Update the meal cost property
+    setMealCost(event.target.value);
+  }
+
   return (
     <div>
       <h1 id="title">Tip Calculator (React)</h1>
-      <MealCostBlock />
+      <div className='costArea'>
+        <label for="mealCost">Meal Cost</label>
+        <input type="number" id="mealCost" min="0" defaultValue="0" autoFocus onChange={handleChange} />
+      </div>
       <table cellSpacing="0">
         <thead>
           <tr>
@@ -21,35 +27,28 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          <TipRow rowLabel="Poor" rowPercent="10" />
-          <TipRow rowLabel="OK" rowPercent="15" />
-          <TipRow rowLabel="Good" rowPercent="18" />
-          <TipRow rowLabel="Great" rowPercent="20" />
-          <TipRow rowLabel="Excellent" rowPercent="22" />
+          <TipRow rowLabel="Poor" rowPercent="10" mealCost="{mealCost}" />
+          <TipRow rowLabel="OK" rowPercent="15" mealCost="{mealCost}" />
+          <TipRow rowLabel="Good" rowPercent="18" mealCost="{mealCost}" />
+          <TipRow rowLabel="Great" rowPercent="20" mealCost="{mealCost}" />
+          <TipRow rowLabel="Excellent" rowPercent="22" mealCost="{mealCost}" />
         </tbody>
       </table>
     </div>
   );
 }
 
-class MealCostBlock extends React.Component {
+class TipRow extends React.Component {  
   render() {
-    return (
-      <div className='costArea'>
-        <label for="mealCost">Meal Cost</label>
-        <input type="number" id="mealCost" min="0" defaultValue="0" autoFocus onChange={handleChange} />
-      </div>
-    );
-  }
-}
+    console.log(`Tip Row: ${this.props.rowLabel}, ${this.props.rowPercent}, ${this.props.mealCost}`);
+    let tipPercent = parseInt(this.props.rowPercent);
+    let tipAmount = this.props.mealCost * tipPercent;
 
-class TipRow extends React.Component {
-  render() {
     return (
       <tr>
         <td className='rating'>{this.props.rowLabel}</td>
         <td className='tip'>{this.props.rowPercent}%</td>
-        <td className='amount' id="tip10">$0.00</td>
+        <td className='amount' id="tip10">${tipAmount}</td>
       </tr>
     );
   }
