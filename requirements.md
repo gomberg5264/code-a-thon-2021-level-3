@@ -38,7 +38,9 @@ The purpose of this document is to provide you with all of the details you need 
 
     For Windows users, or if Linux or macOS users don't support Git directly, then you can [download the lastest version of Git](https://git-scm.com/downloads) and launch the downloaded file to install the application.
 
-4. (Optional) GitHub Desktop - 
+4. (Optional) [GitHub Desktop](https://desktop.github.com/) puts a nice user interface on Git, so you may find it easier to use Desktop than the Git command line; I'll demonstrate how to use the application during the course.
+
+	To install GitHub Desktop, download the latest version from https://desktop.github.com/ and launch the downloaded file to install the application. 
 
 5. (Optional) Google Chrome browser (or equavalent)
 
