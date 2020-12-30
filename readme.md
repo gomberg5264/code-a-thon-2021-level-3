@@ -6,6 +6,13 @@ During the training sessions held during the week of January 17th (2021) we'll u
 
 ## Repository Contents
 
+The repository contains several web application projects we'll use during the training sessions:
+
+- `static-page-v1` - 
+- `static-page-v2` - 
+- `tip-calc-react-v1` - 
+- `tip-calc-react-v2` - 
+- `tip-calc-static` - 
 
 ## Prerequisites
 
