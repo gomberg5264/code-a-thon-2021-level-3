@@ -8,13 +8,14 @@ During the training sessions held during the week of January 17th (2021) we'll u
 
 The repository contains several web application projects we'll use during the training sessions:
 
-- `static-page-v1` - A simple React app that renders a static web page. There's nothing reacty about this app, it's just straight HTML rendered through React.
-- `static-page-v2` - This version of the static page app adds some simple React capabilities to help illustrate the value of React as a web development framework. 
-- `tip-calc-react-v1` -  
-- `tip-calc-react-v2` - 
+- `static-page-v1` - A simple React app that renders a static web page. There's nothing Reacty about this app, it's just straight HTML content rendered using React.
+- `static-page-v2` - This version of the static page app adds some simple React capabilities to help illustrate the value of React as a web development framework vs. straight HTML. 
 - `tip-calc-static` - A simple Tip Calculator web app; this is a static web application built using straight HTML and JavaScript. It is one of the sample applications from [Learning Progressive Web Apps](https://learningpwa.com). 
+- `tip-calc-react-v1` - This folder contains a straight conversion of the Tip Calculator app into React. It doesn't do anything to take advantage of any of the capabilities of React.
+- `tip-calc-react-v2` - This version of the application enhances V1 to use the capabilities of React. It creates a true React version of the app.
 
 ## Prerequisites
+
 
 
 ## Requirements
