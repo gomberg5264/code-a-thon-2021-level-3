@@ -14,10 +14,9 @@ The repository contains several web application projects we'll use during the tr
 - `tip-calc-react-v1` - This folder contains a straight conversion of the Tip Calculator app into React. It doesn't do anything to take advantage of any of the capabilities of React.
 - `tip-calc-react-v2` - This version of the application enhances V1 to use the capabilities of React. It creates a true React version of the app.
 
-## Prerequisites
+## Required Stuff
 
+To work with React, and participate in the Level III training sessions, requires that you have access to a computer system capable of running the React tool chain. Participants will also collaborate with other Code-A-Thon participants to build (code) and publish a React web application, so you'll also need accounts for several online services. 
 
-
-## Requirements
-
+https://github.com/WCTD/code-a-thon-2021-level-3/blob/main/requirements.md
 
