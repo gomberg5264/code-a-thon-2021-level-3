@@ -24,7 +24,7 @@ The purpose of this document is to provide you with all of the details you need 
 
 	Some versions of Linux and macOS offer built-in support for Git. Windows users must install the software manually. To verify whether git is already available on your system, open a terminal window (Linux or macOS) or command prompt (WindowS) and execute the following command: `git`.  
 
-	Git is installed if the system responds with a bunch of text that begins with the the following:
+	Git is installed and operational if the system responds with a bunch of text that begins with the the following:
 
 	```shell
 	usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
@@ -34,12 +34,11 @@ The purpose of this document is to provide you with all of the details you need 
            <command> [<args>]
     ```
 
-    
+    For Linux or macOS, if your system supports Git, but you have some extra steps to enable it, the system will respond with those instructions. 
 
-    https://git-scm.com/downloads
+    For Windows users, or if Linux or macOS users don't support Git directly, then you can [download the lastest version of Git](https://git-scm.com/downloads) and launch the downloaded file to install the application.
 
-
-4. (Optional) GitHub desktop
+4. (Optional) GitHub Desktop - 
 
 5. (Optional) Google Chrome browser (or equavalent)
 
