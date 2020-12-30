@@ -36,24 +36,42 @@ The purpose of this document is to provide you with all of the details you need 
 
     For Linux or macOS, if your system supports Git, but you have some extra steps to enable it, the system will respond with those instructions. 
 
-    For Windows users, or if Linux or macOS users don't support Git directly, then you can [download the lastest version of Git](https://git-scm.com/downloads) and launch the downloaded file to install the application.
+    For Windows users, or if Linux or macOS users don't support Git directly, then you can [download the lastest version of Git](https://git-scm.com/downloads) and launch the downloaded file to install the application. Linix and macOS can also install git using platform package managers (most developers use [Homebrew](https://brew.sh/) on macOS to install apps like Git).
+
+    When you're done, close any open terminal windows or command prompts you have open. On most systems, the Git installation adds the Git binary folder to the system path so you can execute Git from any terminal. You'll have to restart the terminal application to apply those settings. 
+    
+    Next, go ahead and clone this code repository so you'll have it during the course. Open a new terminal window or command prompt, navigate to where you'd like to copy the course files, then execute the following command:
+
+    ```shell
+    git clone https://github.com/WCTD/code-a-thon-2021-level-3
+    ```
+
+    When you're done, you'll have a new folder called `code-a-thon-2021-level-3` containing all of the files from this repository (we usually say repo to keep it short).
 
 4. (Optional) [GitHub Desktop](https://desktop.github.com/) puts a nice user interface on Git, so you may find it easier to use Desktop than the Git command line; I'll demonstrate how to use the application during the course.
 
 	To install GitHub Desktop, download the latest version from https://desktop.github.com/ and launch the downloaded file to install the application. 
 
-5. (Optional) I'll use the [Google Chrome](https://www.google.com/chrome/) browser (or equavalent) during the course, so if you want to follow along, you'll need the Chrome browser installed on your development system. 
+5. (Optional) I'll use the [Google Chrome](https://www.google.com/chrome/) browser (or equavalent like Microsoft Edge) during the course, so if you want to follow along, you'll need the Chrome browser installed on your development system. 
 
 	To install Chrome, download the latest version from https://www.google.com/chrome/ and launch the downloaded file to install the application.
 
-6. (Optional) The React project maintains a Chrome extension called [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) to help developers test and debug React applications using the Chrome Developer Tools. 
+6. (Optional) The React project maintains a Chrome extension called [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) to help developers test and debug React applications using the Chrome Developer Tools. I'll demonstrate the extension during the course.
 
-	To install the extension, open Chrome and navigate to the link provided in the previous paragraph to install the extension.
-
+	To install the extension, open Chrome and navigate to the link provided in the previous paragraph to install the extension in the browser.
 
 ## Online Accounts
 
-GitHub account
+To complete the Code-A-Thon, you'll need accounts with several online solution providers (each of the solutions are free for the type of use expected here).
+
+### GitHub
+
+As you interact with other Code-A-Thon participants building your team's React app, you'll need a way to share the app's source code across multiple users. For this purpose, we've selected [GitHub](https://github.com/) an online version control application that offers many useful capabilities in its free tier.
+
+If you don't already have a GitHub account, open your development system's primary browser and navigate to [https://github.com](https://github.com) and click the **Sign up** button in the GitHub landing page's upper-right corner to start the registration process.
+
+### Netlify
+
 Netlify account (use the GitHub account)
 
 ## Getting Help
