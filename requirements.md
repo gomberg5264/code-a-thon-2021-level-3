@@ -46,7 +46,7 @@ The purpose of this document is to provide you with all of the details you need 
     git clone https://github.com/WCTD/code-a-thon-2021-level-3
     ```
 
-    When you're done, you'll have a new folder called `code-a-thon-2021-level-3` containing all of the files from this repository (we usually say repo to keep it short).
+    When you're done, you'll have a new folder called `code-a-thon-2021-level-3` containing all of the files from this repository (by the way, you'll often here me and others say *repo* insetad of *repository* to keep it short).
 
 4. (Optional) [GitHub Desktop](https://desktop.github.com/) puts a nice user interface on Git, so you may find it easier to use Desktop than the Git command line; I'll demonstrate how to use the application during the course.
 
@@ -72,7 +72,9 @@ If you don't already have a GitHub account, open your development system's prima
 
 ### Netlify
 
-Netlify account (use the GitHub account)
+During the Code-A-Thon, you'll need to publish your team's React web application so others, especially the Judges, can access the site. There are a lot of free hosting options available to us, but for this year's event, we decided to use [Netlify](https://www.netlify.com/). Netlify provides out of the box support for React apps and you can host many apps for free. Another benefit of Netlify is that you can configure Netlify to pull your site directly from your project's GitHub repo every time you commit changes to the repo; once you complete the initial configuration, there's nothing else you need to do to build and deploy your app every time you commit changes to it. How cool is that?
+
+If you don't already have a Netlify account, open your development system's primary browser and navigate to [https://www.netlify.com/](https://www.netlify.com/) and click the **Sign up ->** button in the Netlify landing page's upper-right corner to start the registration process.
 
 ## Getting Help
 
