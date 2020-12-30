@@ -21,3 +21,5 @@ This course assumes that you're an experienced web developer, and know how to bu
 To work with React, and participate in the Level III training sessions, requires that you have access to a computer system capable of running the React developer tool chain. Participants will also collaborate with other Code-A-Thon participants to build (code) and publish a React web application, so you'll also need accounts for several online services. 
 
 Before attending the course, review the requirements and tool installation instructions provided in the [Requiements Document](https://github.com/WCTD/code-a-thon-2021-level-3/blob/main/requirements.md). 
+
+If you have questions or issues completing the prerequisites installation, Create an [issue](https://github.com/WCTD/code-a-thon-2021-level-3/issues) in this repository or attend one of the Office Hour sessions offered by the We Connect The Dots Code-A-Thon team. 
