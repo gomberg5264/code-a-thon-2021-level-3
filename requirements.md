@@ -15,10 +15,19 @@ The purpose of this document is to provide you with all of the details you need 
 1. The React developer toolchain uses [Node.js](https://nodejs.org/en/) to create, build (compile), and deploy React web applications.
 
 	To install Node.js, [download the installer](https://nodejs.org/en/download/) and launch the downloaded file to perform the installation. The Node.js team publishes two versions of Node, a *Long Term Support* (LTS) version and the latest and greatest version called *Current*. For our purposes, you should install the LTS version if possible; we won't make use of any of the Current features (that I know of).
-2. Git 
-3. (Optional) GitHub desktop
-4. (Optional) Google Chrome browser (or equavalent)
-5. (Optional) React extension for Chrome
+
+2. We'll use [Visual Studio Code](https://code.visualstudio.com/) to code our React applications. You can use any text editor you want, but all of the in-class demonstrations will be performed using Visual Studio Code and most project collaborators will use it as well.
+
+	To install Visual Studio Code, [download the latest version](https://code.visualstudio.com/download) and launch the downloaded file to perform the installation. 
+
+3. Git 
+
+4. (Optional) GitHub desktop
+
+5. (Optional) Google Chrome browser (or equavalent)
+
+6. (Optional) React extension for Chrome
+
 
 ## Online Accounts
 
