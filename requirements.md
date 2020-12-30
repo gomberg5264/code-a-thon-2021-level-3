@@ -42,9 +42,13 @@ The purpose of this document is to provide you with all of the details you need 
 
 	To install GitHub Desktop, download the latest version from https://desktop.github.com/ and launch the downloaded file to install the application. 
 
-5. (Optional) Google Chrome browser (or equavalent)
+5. (Optional) I'll use the [Google Chrome](https://www.google.com/chrome/) browser (or equavalent) during the course, so if you want to follow along, you'll need the Chrome browser installed on your development system. 
 
-6. (Optional) React extension for Chrome
+	To install Chrome, download the latest version from https://www.google.com/chrome/ and launch the downloaded file to install the application.
+
+6. (Optional) The React project maintains a Chrome extension called [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) to help developers test and debug React applications using the Chrome Developer Tools. 
+
+	To install the extension, open Chrome and navigate to the link provided in the previous paragraph to install the extension.
 
 
 ## Online Accounts
