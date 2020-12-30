@@ -14,13 +14,30 @@ The purpose of this document is to provide you with all of the details you need 
 
 1. The React developer toolchain uses [Node.js](https://nodejs.org/en/) to create, build (compile), and deploy React web applications.
 
-	To install Node.js, [download the installer](https://nodejs.org/en/download/) and launch the downloaded file to perform the installation. The Node.js team publishes two versions of Node, a *Long Term Support* (LTS) version and the latest and greatest version called *Current*. For our purposes, you should install the LTS version if possible; we won't make use of any of the Current features (that I know of).
+	To install Node.js, [download the installer](https://nodejs.org/en/download/) for your development system (matching the download to the development system's operating system (OS)), and launch the downloaded file to perform the installation. The Node.js team publishes two versions of Node, a *Long Term Support* (LTS) version and the latest and greatest version called *Current*. For our purposes, you should install the LTS version if possible; we won't make use of any of the Current features (that I know of).
 
-2. We'll use [Visual Studio Code](https://code.visualstudio.com/) to code our React applications. You can use any text editor you want, but all of the in-class demonstrations will be performed using Visual Studio Code and most project collaborators will use it as well.
+2. We'll use [Visual Studio Code](https://code.visualstudio.com/) to edit our React application source code. You can use any text editor you want, but all of the in-class demonstrations will be performed using Visual Studio Code and most project collaborators will use it as well.
 
-	To install Visual Studio Code, [download the latest version](https://code.visualstudio.com/download) and launch the downloaded file to perform the installation. 
+	To install Visual Studio Code, [download the latest version](https://code.visualstudio.com/download) for your development system (matching the download to the development system's operating system (OS)), and launch the downloaded file to perform the installation. 
 
-3. Git 
+3. Well use the [Git](https://git-scm.com/) distributed version control system to collaborate with other developers, so we'll install this now to make sure we have it when we need it. 
+
+	Some versions of Linux and macOS offer built-in support for Git. Windows users must install the software manually. To verify whether git is already available on your system, open a terminal window (Linux or macOS) or command prompt (WindowS) and execute the following command: `git`.  
+
+	Git is installed if the system responds with a bunch of text that begins with the the following:
+
+	```shell
+	usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]     
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+    ```
+
+    
+
+    https://git-scm.com/downloads
+
 
 4. (Optional) GitHub desktop
 
