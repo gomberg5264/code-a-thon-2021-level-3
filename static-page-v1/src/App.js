@@ -3,7 +3,9 @@ import './App.css';
 function App() {
   return (
     <div>
-      <header><h1>Static App (V1)</h1></header>
+      <header>
+        <h1>Static App (V1)</h1>
+      </header>
       <p>Bacon ipsum dolor amet chuck pork chop drumstick pork, rump bresaola swine shankle landjaeger tri-tip filet mignon ham tenderloin. Ham hock strip steak cow jerky pig biltong, drumstick salami beef ribs pastrami fatback spare ribs flank tail. Venison cupim alcatra tongue, drumstick sirloin beef salami cow pork loin brisket jowl. Bresaola flank pork chop ham chislic. Shoulder pastrami sausage, frankfurter meatloaf corned beef pig chicken. Shank chislic spare ribs, turducken fatback swine short ribs ball tip shankle brisket meatball shoulder frankfurter kevin pork chop.</p>
       <a href='/page1'>Learn More!</a>
 
