@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
+import './App.css';
+
 export default function App() {
   return (
     <Router>
@@ -18,12 +20,12 @@ export default function App() {
             </li>
           </ul>
         </nav>
-
+        
         <strong>This is page content that doesn't change when I switch pages</strong>
         <hr />
 
         <Switch>
-          <Route path="/about">
+          <Route path="/about"> 
             <About />
           </Route>
           <Route path="/users">
