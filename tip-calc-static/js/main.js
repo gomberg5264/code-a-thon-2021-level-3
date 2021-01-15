@@ -25,4 +25,3 @@
     document.getElementById('mealCost').oninput = updateTipAmounts;
 
 })();
-
