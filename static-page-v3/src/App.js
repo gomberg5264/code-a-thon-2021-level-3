@@ -23,7 +23,7 @@ class App extends React.Component {
         </header>
         <label for="btnPrefix">Button Prefix: </label>
         <input type="text" name="btnPrefix" autoFocus onChange={this.handleChange} />
-        <br /><br />
+        <br />
         <p>Bacon ipsum dolor amet chuck pork chop drumstick pork, rump bresaola swine shankle landjaeger tri-tip filet mignon ham tenderloin. Ham hock strip steak cow jerky pig biltong, drumstick salami beef ribs pastrami fatback spare ribs flank tail. Venison cupim alcatra tongue, drumstick sirloin beef salami cow pork loin brisket jowl. Bresaola flank pork chop ham chislic. Shoulder pastrami sausage, frankfurter meatloaf corned beef pig chicken. Shank chislic spare ribs, turducken fatback swine short ribs ball tip shankle brisket meatball shoulder frankfurter kevin pork chop.</p>
         <MoreLink btnPrefix={this.state.prefix} linkTarget="/page1" />
 
