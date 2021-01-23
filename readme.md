@@ -16,6 +16,7 @@ The repository contains several web application projects we'll use during the tr
 - `tip-calc-react-v1` - This folder contains a straight conversion of the Tip Calculator app into React. It doesn't do anything to take advantage of any of the capabilities of React.
 - `tip-calc-react-v2` - This version of the application enhances V1 to use the capabilities of React. It creates a true React version of the app.
 - `navigation-sample-v1` - A sample app that highlights how to implement multi-page navigation in React.
+- `navigation-sample-v2` - This version breaks each page into a separate file.
 
 ## Required Stuff
 
